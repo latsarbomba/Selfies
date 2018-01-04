@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CRender.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto.cpp">
+      <Filter>Security</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\imgui.cpp">
+      <Filter>Headers\Menu\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\imgui_draw.cpp">
+      <Filter>Headers\Menu\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\imgui_impl_dx9.cpp">
+      <Filter>Headers\Menu\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>Headers\Menu\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CRender.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto.h">
+      <Filter>Security</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\imconfig.h">
+      <Filter>Headers\Menu\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\imgui.h">
+      <Filter>Headers\Menu\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\imgui_impl_dx9.h">
+      <Filter>Headers\Menu\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\imgui_internal.h">
+      <Filter>Headers\Menu\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.h">
+      <Filter>Headers\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalPlayer.h">
+      <Filter>Headers\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSystem.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>Headers\Menu\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\stb_rect_pack.h">
+      <Filter>Headers\Menu\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\stb_truetype.h">
+      <Filter>Headers\Menu\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\stb_textedit.h">
+      <Filter>Headers\Menu\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>Headers\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Headers\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="XorStr.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Strings.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>Headers\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CMaths.h">
+      <Filter>Headers\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="VMProtectSDK.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{36a999ca-e62f-4f54-a516-789982a76a35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{79c3b4b2-01f9-4b85-8457-3fd532c73bd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Security">
+      <UniqueIdentifier>{82f768a8-09a5-4f59-a2cd-50ffcda69770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{37e74794-1964-416d-a2fa-91cd45f00d2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\SDK">
+      <UniqueIdentifier>{b9f58b2e-e93c-4f51-a382-dde10ef4a899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Menu">
+      <UniqueIdentifier>{eb2776a1-393b-4cfd-933c-1214ca7524a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Menu\IMGUI">
+      <UniqueIdentifier>{292ea10f-dae3-44e9-a9eb-952ba69e1455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Menu\TinyXML">
+      <UniqueIdentifier>{7476bdc3-97ae-4652-9553-2285ae6cf559}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
